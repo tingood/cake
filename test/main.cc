@@ -6,9 +6,9 @@ TEST(simple_test_case, simple_test)
   EXPECT_EQ(1, 1);
 }
 
-TEST(simple_test_case, simple_test)
+TEST(another_test_case, simple_test)
 {
-  EXPECT_EQ(2, 2);
+  EXPECT_EQ(2, 2) << "Why is 2 != 2";
 }
 
 
