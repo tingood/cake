@@ -6,6 +6,12 @@ TEST(simple_test_case, simple_test)
   EXPECT_EQ(1, 1);
 }
 
+TEST(simple_test_case, simple_test)
+{
+  EXPECT_EQ(2, 2);
+}
+
+
 int main(int argc, char** argv)
 {
   testing::InitGoogleTest(&argc, argv);
