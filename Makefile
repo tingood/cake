@@ -10,7 +10,7 @@ TARGET = cake
 CPPFLAGS = 
 CXXFLAGS = -std=c++11 -W -Wall -Werror
 
-LDFLAGS = 
+LDFLAGS = -lpthread
 
 ${TARGET}: ${OBJECTS}
 	${CXX} ${CXXFLGAS} -o $@ ${OBJECTS} ${LDFLAGS}
